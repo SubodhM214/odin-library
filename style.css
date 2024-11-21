@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #be123c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin: 16px auto;
+  display: block;
+}
+.btn:hover,
+.add-book button:hover {
+  cursor: pointer;
+}
+
+.add-book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #303030;
+  width: 500px;
+  margin: 10px auto 0;
+  padding: 18px;
+}
+
+.add-book input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+.add-book button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  width: 200px;
+  border: 2px solid #000;
+  margin: 24px;
+  margin-top: 48px;
+  padding: 16px;
+  text-align: center;
+}
+
+.remove {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin: 16px auto;
+}
